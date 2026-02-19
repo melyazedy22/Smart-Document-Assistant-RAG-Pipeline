@@ -1,0 +1,66 @@
+{
+  "timestamp": "20260219_020211",
+  "llm_provider": "groq",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "documents_indexed": [
+    "Hatsuyuki Sakura reveiew .docx"
+  ],
+  "total_questions": 3,
+  "avg_length_score": 1.0,
+  "avg_contains_score": null,
+  "avg_word_overlap": null,
+  "avg_latency_s": 0.93,
+  "max_latency_s": 1.09,
+  "guardrail_pass_rate": 1.0,
+  "output_grounding_rate": 1.0,
+  "questions": [
+    {
+      "question": "What is this document about?",
+      "answer": "This document appears to be a review of a visual novel or game called \"Hatsuyuki Sakura\". The review discusses the game's story, characters, and routes, providing an analysis of the game's strengths and weaknesses.",
+      "ground_truth": "",
+      "doc_filter": null,
+      "elapsed_s": 0.84,
+      "num_citations": 4,
+      "input_passed": true,
+      "input_score": "0.35663837",
+      "output_grounded": true,
+      "output_score": 0.49552791940586377,
+      "contains_score": null,
+      "word_overlap": null,
+      "length_score": 1.0,
+      "error": null
+    },
+    {
+      "question": "Summarize the main points of the document.",
+      "answer": "The document is a review of the visual novel \"Hatsuyuki Sakura\". Here are the main points summarized:\n\n1. The game revolves around Kawano Hatsuyuki, who is revealed to be the Ghost Child, and his desire to avenge his beloved Ran's death.\n2. The common route is well-written and sets up the groundwork for the story.\n3. The game has 5 girls and 6 routes, with each route exploring a different character's relationship with Hatsuyuki.\n4. The reviewer enjoyed Aya's route the most, finding it to be the best route in the game, with good plot relevancy and an interesting character.\n5. The reviewer was disappointed with Shirokuma's route, finding it to be the shortest and overshadowed by Aya's presence.\n6. The reviewer enjoyed the romance between Yuki and Yoru, but felt that it dragged on a bit too long.\n7. The reviewer appreciated the art, music, and character development in the game.\n8. The reviewer found the ending to be satisfying, with a good connection of the dots and no major plot holes.\n\nOverall, the reviewer enjoyed the game and found it to be well-written and engaging, with some minor criticisms of the route lengths and character development.",
+      "ground_truth": "",
+      "doc_filter": null,
+      "elapsed_s": 1.09,
+      "num_citations": 4,
+      "input_passed": true,
+      "input_score": "0.37479734",
+      "output_grounded": true,
+      "output_score": 0.5885906087140488,
+      "contains_score": null,
+      "word_overlap": null,
+      "length_score": 1.0,
+      "error": null
+    },
+    {
+      "question": "What are the key terms or definitions mentioned?",
+      "answer": "Based on the provided context, the following key terms or definitions are mentioned:\n\n1. **Ghost Child**: Refers to Kawano Hatsuyuki, the main character, who is revealed to have this identity by the end of the common route.\n2. **反魂香 (Hankoukou)**: A term mentioned in the context, but its meaning is not explicitly defined. However, based on the context, it seems to be related to a concept or a plot element in the game.\n3. **Soul Fragmentation**: A term mentioned in the context, which seems to be related to a plot element or a mechanic in the game.\n4. **Progress Guidance Committee ( 進路指導委員)**: A group mentioned in the context, which seems to be a part of the game's setting or story.\n\nThese terms are not fully explained in the provided context, but they seem to be related to the game's story, mechanics, or setting.",
+      "ground_truth": "",
+      "doc_filter": null,
+      "elapsed_s": 0.86,
+      "num_citations": 4,
+      "input_passed": true,
+      "input_score": "0.35928464",
+      "output_grounded": true,
+      "output_score": 0.2987186360807531,
+      "contains_score": null,
+      "word_overlap": null,
+      "length_score": 1.0,
+      "error": null
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📑 Smart Document Assistant
 
 A local-first, privacy-focused Q&A assistant for long documents (contracts, insurance policies, reports). Built with **LangChain**, **RAG**, **Gradio**, and **FastAPI**.
@@ -174,3 +175,6 @@ Evaluation uses an **LLM-as-Judge** approach where a secondary LLM scores the RA
 - Cloud deployment (Docker/Kubernetes)
 - Response streaming
 - Persistent chat history
+=======
+# Smart-Document-Assistant-RAG-Pipeline
+>>>>>>> b5f083700b4d553d4efda3fa156c934ffc9e74bc
